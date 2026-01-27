@@ -1,4 +1,4 @@
 payload:
   # > RFI
-  - DOMAIN-SUFFIX,rfi.fr,📲 RFI
-  - DOMAIN-SUFFIX,rfi.my,📲 RFI
+  - DOMAIN-SUFFIX,rfi.fr,RFI
+  - DOMAIN-SUFFIX,rfi.my,RFI
