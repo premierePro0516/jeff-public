@@ -1,0 +1,6 @@
+payload:
+  # > DW
+  - DOMAIN-SUFFIX,dw.com,DW
+  - DOMAIN-SUFFIX,dw.de,DW
+  - DOMAIN-SUFFIX,dw.fr,DW
+  - DOMAIN-SUFFIX,dw.cn,DW
