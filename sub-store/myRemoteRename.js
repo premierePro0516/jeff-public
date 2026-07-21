@@ -142,7 +142,7 @@ function operator(proxies, targetPlatform) {
         let cleanText = name
           .replace(flagRegex, " ") 
           .replace(/[\uD83C-\uDBFF\uDC00-\uDFFF]/g, " ") 
-          .replace(/VIP|高速|专线|流媒体|实验性|高级|标准|IEPL/ig, " ")
+          .replace(/VIP|高速|专线|流媒体|高级|标准|IEPL/ig, " ")
           .replace(/(?:CTCUCM|CTCU|CMCU|CUCM|BGP|CMCC|CT|CU|CM)/ig, " ")
           .replace(/[\[\(（【][^\]\)）】]*[\]\)）】]/g, " ");
 
