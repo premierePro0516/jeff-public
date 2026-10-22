@@ -1,0 +1,9 @@
+payload:
+  - DOMAIN-SUFFIX,cloud.microsoft
+  - DOMAIN-SUFFIX,static.microsoft
+  - DOMAIN-SUFFIX,usercontent.microsoft
+  - DOMAIN-SUFFIX,login.microsoftonline.com
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,graph.microsoft.com
+  - DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
