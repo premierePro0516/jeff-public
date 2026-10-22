@@ -1,4 +1,5 @@
 payload:
+# Microsoft Copilot 新版核心（2026）
   - DOMAIN-SUFFIX,cloud.microsoft
   - DOMAIN-SUFFIX,static.microsoft
   - DOMAIN-SUFFIX,usercontent.microsoft
@@ -7,3 +8,8 @@ payload:
   - DOMAIN-SUFFIX,graph.microsoft.com
   - DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
+
+# 本次漏网 + Edge 相关
+  - DOMAIN-SUFFIX,cloudmessaging.edge.microsoft.com
+  - DOMAIN-SUFFIX,edge.microsoft.com
+  - DOMAIN-SUFFIX,admin.microsoft.com
