@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,cloudmessaging.edge.microsoft.com
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,admin.microsoft.com
+  - DOMAIN-SUFFIX,outlook.office365.com
