@@ -25,7 +25,7 @@
 # ① 订阅锚点. Remove interval 86400 renew because that some proxy-providers may not support it.
 # ② 出站锚点
 Anchor_OB: &Anchor_OB {type: select, proxies: [香港故转, 香港手动, 香港自动, 台湾故转, 台湾手动, 台湾自动, 新加坡故转, 新加坡手动, 新加坡自动, 
-           日本故转, 日本手动, 日本自动, 美国故转, 美国手动, 美国自动, 韩国故转, 韩国手动, 韩国自动, 欧洲故转, 欧洲手动, 欧洲自动, 其他手动, 一键代理, FRVPN, 直接连接]}
+           日本故转, 日本手动, 日本自动, 美国故转, 美国手动, 美国自动, 韩国故转, 韩国手动, 韩国自动, 欧洲故转, 欧洲手动, 欧洲自动, 其他手动, 一键代理, 直接连接]}
 # ③ 策略锚点
 Anchor_HS: &Anchor_HS {type: select, include-all: true}
 Anchor_FB: &Anchor_FB {type: fallback, url: 'https://www.gstatic.com/generate_204', interval: 60, lazy: false, timeout: 2000, max-failed-times: 3, hidden: true}
@@ -111,11 +111,6 @@ proxy-groups:
 
   # 其他组
   - {name: 其他手动,     <<: *Anchor_HS, filter: *Anchor_OT, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png}
-
-  # "FRVPN" 为防失联而提供配的免费VPN节点
-  - {name: FRVPN,       type: url-test, use: [Freesocks], url: 'https://www.gstatic.com/generate_204', interval: 60, lazy: false, tolerance: 60, timeout: 2000, max-failed-times: 3, hidden: true, 
-                        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png}
-
 
 # ※※※※※※※※※※※※※※※ 规则匹配 ※※※※※※※※※※※※※※※
 rules:
